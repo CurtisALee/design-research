@@ -1,16 +1,15 @@
-# Contents
+# Design Research
 
-If you’re interested in things like design best practices and cognitive psychology, I’ve salvaged a collection of posts I originally wrote for our playbook at Leaf.
+If you’re interested in things like design best practices and cognitive psychology, I’ve salvaged a collection of posts I originally wrote for our playbook at [Leaf][leaf].
 
-I hope to build this up over time with any useful information or resources, so you can always . If someone reading this would ike to contribute, then feel free to reach as I'm always open to adding entires from other
+I hope to build this up over time with any useful information or resources I find, so you can always star this repo if you're interested in reading more in the future.
 
-## Handbooks
+Also, if someone reading this would like to contribute and add an entry of their own, then feel free to reach out to see what can be done.
 
-- [The Leaf Handbook (Start Here)](the-leaf-handbook.md)
-- [The Design Handbook](the-design-handbook.md)
-- [The Development Handbook](the-development-handbook.md)
-- [The Frontend Handbook](the-frontend-handbook.md)
+As I originally wrote these as part of Leaf Software, I'd like to give some credit to the director, Chris Annetts. He was very much my only proof reader, and helped add a little extra finesse where needed.
 
-## Workflows
+[leaf]: https://weareleaf.com/
 
-- [The S.I.M.P.L.E Workflow (Start Here)](the-simple-workflow.md)
+## Contents
+
+- [Design Research](design-research.md)

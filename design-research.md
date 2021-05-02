@@ -1,206 +1,14 @@
-# The Design Playbook
+# Design Research
 
 ## Table of contents
 
-- [Purpose of the playbook](#purpose-of-the-playbook)
-- [Initial questions](#initial-questions)
-- [Forms](#forms)
-- [Accessibility](#accessibility)
 - [Microcopy](#microcopy)
 - [Modals and overlays](#modals-and-overlays)
 - [Microinteractions](#microinteractions)
 - [Icons](#icons)
 - [Psychology](#psychology)
 - [Ethics](#ethics)
-
-## Purpose of the playbook
-
-Much of what we do is about uncovering unknowns and gaps in our knowledge, applying the right approach to a given problem, and making sure appropriate best practices are used.
-
-The playbook is our evolving first-attempt at surfacing the design expertise held individually in our heads. By investing in this asset and promoting the sharing of knowledge, we create not only a more refined design process, but more rounded individuals.
-
-## Initial questions
-
-- [What is the client looking to achieve?](#what-is-the-client-looking-to-achieve)
-- [How will the end-user consume it?](#How-will-the-end-user-consume-it)
-- [Who are our users?](#who-are-our-users)
-- [How will the user be consuming our work?](#how-will-the-user-be-consuming-our-work)
-- [Does the client themselves have content guidelines?](#does-the-client-themselves-have-content-guidelines)
-- [Does the client themselves have design guidelines?](#does-the-client-themselves-have-design-guidelines)
-- [How does our work fit into the bigger picture?](#wow-does-our-work-fit-into-the-bigger-picture)
-
-### What is the client looking to achieve?
-
-What is their fundamental reason for investing in this work? Projects aren't undertaken on a whim, but rather to solve a problem. To determine our own approach, we first need to understand why we're doing it.
-
-### How will the end-user consume it?
-
-We don't create isolated features, but rather joined-up experienced. Where will the user come from before they see our new work? Whether it was direct from a marketing email, an internal page on the company website, or a third-party ad, we need to know exactly what was promised to them.
-
-### Who are our users?
-
-What demographics need to be catered for in our product? Is there a very specific type of user (e.g. a hen party booking system), or a very broad set of user groups (e.g. a county council recycling widget). Our use of colour, text size, target size, language, and design patterns are all influenced by who will be using the product.
-
-### How will the user be consuming our work?
-
-The expected screen size, device type, and level of distraction are just a few factors that influence our design choices. Going further, is the work more likely to be used in a well lit office, in the comfort of their home, or during a rush-hour commute? Will it be consumed in the day or in the evening? If it's the former, should we expect it to be used outside in direct sunlight?
-
-There's no one-size-fits-all approach to interface design, and the choices we need should account for the environment that our product is likely to be consumed in.
-
-### Does the client themselves have content guidelines?
-
-Content guidelines help align individuals on how to write for the business or product. Documents of this ilk usually involve humanised characterisations of the company, dos and don'ts, and general suggestions on the tone of voice to use to ensure the language is both on-brand and relatable to their audiences.
-
-Failing the presence of a formal guideline, determine who is in charge of the company content strategy to ensure our own approach is in keeping with the client's own expectations.
-
-### Does the client themselves have design guidelines?
-
-Is there an existing style guide or pattern library to guide our design decisions? In the absence of either, are there existing company products or brand materials that can help guide the visual presentation of our work?
-
-There may be times where existing assets do exist, but are out dated, poorly constructed, or simply not fit for purpose. However, this should always be a conscious decision, and an audit of current design materials should always be undertaken.
-
-### How does our work fit into the bigger picture?
-
-If we're building a new feature, page, step, or even product, it's essential we intimately understand where our work sits in the customers journey.
-
-Design decisions made in isolation lack the context needed to truly understand the needs or concerns of the user they're designing an interface for. Uncover the possible routes a user has taken to get here, consider their motivation and the messaging they've seen (or not seen) already, and use it to execute a truly joined-up experience.
-
-## Forms
-
-- [Present forms in a single column](#present-forms-in-a-single-column)
-- [Create visual relationships through proximity and white-space](#create-visual-relationships-through-proximity-and-white-space)
-- [Place form labels above the field](#place-form-labels-above-the-field)
-- [You probably don't want to use a dropdown](#you-probably-dont-want-to-use-a-dropdown)
-- [Make the process as simple as possible](#make-the-process-as-simple-as-possible)
-- [Don’t hide important supplementary helper text](#dont-hide-important-supplementary-helper-text)
-- [Write implied, actionable error messages](#write-implied-actionable-error-messages)
-- [Present error messages inline](#present-error-messages-inline)
-- [Use field length as an affordance](#use-field-length-as-an-affordance)
-- [Use address capture to infer relevance](#use-address-capture-to-infer-relevance)
-
-### Present forms in a single column
-
-Forms laid out across multi-columns result in a higher frequency of user error and a slower and lower completion rate. With multi-column layouts, users are more prone to both entering information in the wrong field, or even missing the field entirely.
-
-- https://cxl.com/research-study/form-field-usability/
-- https://baymard.com/blog/avoid-multi-column-forms
-
-### Create visual relationships through proximity and white-space
-
-Create visual associations between related labels and inputs by placing the elements close to one another, and ensuring that unrelated elements are positioned further away.
-
-Beyond labels and inputs, look to simplify long and daunting forms by grouping related fields, creating the illusion of smaller, less overwhelming forms.
-
-- https://www.nngroup.com/articles/form-design-white-space/
-
-### Place form labels above the field
-
-Users complete top aligned labeled forms at a much higher rate than left aligned labels. Top aligned labels also translate well on mobile. However, consider using left aligned labels for large data-set entry with variable optionality because they are easier to scan together, they reduce height, and prompt more consideration than top aligned labels.
-
-- https://www.uxmatters.com/mt/archives/2006/07/label-placement-in-forms.php
-- https://baymard.com/blog/mobile-form-usability-label-position
-- https://www.nngroup.com/articles/form-design-placeholders/
-
-### You probably don't want to use a dropdown
-
-Dropdown menus are an overused and inefficient input type, with a variety of usability implications from the hiding of options to overwhelming the user with a long and daunting list of choices, not to mention their role in negatively impacting conversation rates.
-
-On iOS devices, a dropdown required 4 separate interactions to make a single selection. What's more, if the dropdown has options that are more than 36 characters long, the description will be automatically truncated on smaller iPhones.
-
-As a general rule of thumb, avoid dropdowns when there are more than 10, but fewer than 5 options. The most common use-case is the sorting-preference of a list, where space is limited, and the interaction non-essential.
-
-- https://designsmarts.co/the-problem-with-dropdowns
-- https://www.lukew.com/ff/entry.asp?1950
-- https://baymard.com/blog/drop-down-usability
-- https://www.nngroup.com/articles/drop-down-menus/
-
-### Make the process as simple as possible
-
-One of our primary objectives as data collectors is to make the process of proving information as frictionless and simple as possible. Look for opportunities where data can be inferred, excluded, imported, or even captured automatically (for example, via a wearable device).
-
-### Don’t hide important supplementary helper text
-
-Make sure any essential instructions (e.g. the format of a new password), are visible at all times. Hiding such information within helper text, tooltips, or in error messages only increases the likelihood of failed submissions and abandoned sessions.
-
-- https://www.nngroup.com/articles/form-design-placeholders/
-
-### Write implied, actionable error messages
-
-Avoid using software-driven words such as 'error' or 'invalid'; the very presence of an error message, along with steps to address the issue, imply that there's a problem.
-
-### Present error messages inline
-
-Rather than collating and presenting errors at the top of the form, help the user to locate errors in their submission by presenting the relevant guidance next to the input in question.
-
-### Use field length as an affordance
-
-When possible, use the width of a field as an affordance to the length of expected user-input. A set of full-width inputs look great at a glance, but fail as visual constraints.
-
-### Use address capture to infer relevance
-
-The variance between address formats Worldwide is considerable, from the order and naming of information, to what's included at all; for example, in China Postal codes (not a postcode or a ZIP code) are optional.
-
-Language and field presentation is a great way to communicate to your users who your product is intended for, and who it isn't.
-
-- https://ux.shopify.com/designing-address-forms-for-everyone-everywhere-f481f6baf513
-
-## Accessibility
-
-- [Use meaningful link and button text](#use-meaningful-link-and-button-text)
-- [Add clear, useful alt tags to images](#add-clear-useful-alt-tags-to-images)
-- [Use descriptive headings](#use-descriptive-headings)
-- [Ensure an appropriate level of colour contrast](#ensure-an-appropriate-level-of-colour-contrast)
-- [Don't ever rely on colour alone](#dont-ever-rely-on-colour-alone)
-- [Always include a document language](#always-include-a-document-language)
-- [Always include a main element](#always-include-a-main-element)
-- [Include captions when including audio or video](#include-captions-when-including-audio-or-video)
-- [More on accessibility](#more-on-accessibility)
-
-### Use meaningful link and button text
-
-Where screen readers typically skip from link to link 'read more' offers little or no context.
-
-### Add clear, useful alt text to images
-
-Use alt tags to describe the content of the image. If the image contains data visualisations (e.g. a pie chart), use the alt text to describe the insight.
-
-### Use descriptive headings
-
-Screen readers allow users to skip between headings, making the headings themselves an important part of navigating a page.
-
-### Ensure an appropriate level of colour contrast
-
-The Web Content Accessibility Guidelines (WCAG) recommend a minimum level for colour contrast between text and background elements, ensuring accessible content for users who struggle to distinguish between particular shades or colours.
-
-For any project, the colour contrast should pass [WCAG 2.0 AA standards](https://webaim.org/blog/wcag-2-0-and-link-colors/), with Level AAA conformance recommended for projects where a significant number of users may suffer from some sort of sight impairment.
-
-- https://accessibility.blog.gov.uk/2016/06/17/colour-contrast-why-does-it-matter/
-
-### Don't ever rely on colour alone
-
-Colour shouldn't be used in isolation to indicate or infer meaning or feedback to the user. For example, the use of colour to highlight particular rows in a table, or an error on an input, should be supplemented with text and/or iconography.
-
-- https://webaim.org/articles/contrast/
-
-### Always include a document language
-
-Each language has its own pronunciation rules, and you should use the `lang` attribute on the `html` element to tell assistive technologies which primary language the page content is written in. If your page is in English for example, you'd want `<html lang="en">`.
-
-### Always include a main element
-
-By wrapping your page content (everything that isn't a header, navigation, or footer) in a `<main>` element, you're defining a page landmark that assistive technologies understand.
-
-### Include captions when including audio or video
-
-Captions are synchronised text equivalents of the spoken word, intended primarily for users who cannot hear audio, and should be included alongside any audio and video content.
-
-### More on accessibility
-
-- https://a11yproject.com
-- https://webflow.com/blog/5-ways-content-can-improve-your-websites-accessibility-and-overall-ux
-- https://moritzgiessmann.de/accessibility-cheatsheet
-- https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag
-- https://adrianroselli.com/2017/02/not-all-screen-reader-users-are-blind.html
+- [Research and insights](#research-and-insights)
 
 ## Microcopy
 
@@ -576,3 +384,323 @@ When thinking about push notifications for example, make sure to really consider
 - https://uxplanet.org/app-addiction-the-invisible-plague-73447926d734
 - https://blog.rescuetime.com/why-addicted-to-notifications/
 - https://3sidedcube.com/ethics-in-ux-design/
+
+## Research and insights
+
+- [Plan your research objectives in advance](#plan-your-research-objectives-in-advance)
+- [Understand your audience and their needs](#understand-your-audience-and-their-needs)
+- [Research and analyse your competitors](#research-and-analyse-your-competitors)
+- [Determine what user research methods to use](#determine-what-user-research-methods-to-use)
+- [Organise the data gathered in your research](#organise-the-data-gathered-in-your-research)
+- [Analyse the data before making any decisions](#analyse-the-data-before-making-any-decisions)
+- [Share your insights and recommendations](#share-your-insights-and-recommendations)
+- [Gather user feedback through regular testing](#gather-user-feedback-through-regular-testing)
+- [More on research and insights](#more-on-research-and-insights)
+
+### Plan your research objectives in advance
+
+You must understand the reasons for carrying out your user research, and know what questions
+need to be answered. Why are you carrying out this research? What are you hoping to learn
+more about? By having clear objectives for your research, you can then begin working out a
+plan to help you answer these questions and capture the most useful information.
+
+If you want to find out more about your users, such as their lifestyle and demographics, then
+think about the kinds of questions you’d like to ask (e.g. How often do you use apps to track
+your exercise?). You can then use these questions as a guide to keep the conversation in-line
+with your original objectives.
+
+### Understand your audience and their needs
+
+Every decision should be made with the user in mind. We must know exactly who we’re
+designing for, and what their reasons are for using the product. Without this understanding, you
+run the risk of designing based only on assumptions and guesswork as opposed to what your
+users actually need, so make sure you’re asking questions such as:
+
+- Who are we designing for?
+- What is important to the user?
+- How does the user think and behave?
+- In what environment will the product be used the most?
+- What device will the product mainly be used on?
+
+Knowing exactly how people use your product, and what they want from it, means you'll be able
+to make more informed design decisions that effectively meet the needs of your users.
+
+### Research and analyse your competitors
+
+Researching your competitors is about seeing where their strengths and weaknesses lie in
+comparison to your product or service. By understanding how your competitors meet the needs
+of their users, you'll be better able to strategise updates to not only compete within the target
+market, but even find ways to innovate or improve on what others are doing.
+
+To carry out your competitor analysis, make sure to assess the key areas of your product you
+want to improve, and choose no more than six competitors to research. You should be looking
+for the main differences they have that add value to their business, as well as ways in which
+they have solved any of the problems also identified in your product.
+
+When analysing your findings, make sure to document what you liked and disliked about each
+of their products along with suggestions on how you can improve your own. Not only will you
+learn more about what’s currently in use, but through regular analysis, you’ll be better able to
+plan your updates effectively so that your product is meeting the expectations of your users.
+
+### Determine what user research methods to use
+
+At its core, the process of user research is categorised into understanding the attitude and
+opinions of your users, as well as their behavior and the way in which they interact with your
+product. These types of user research depend on the stage of the design journey you’re in, and
+understanding what methods to use is key to making sure you’re getting the best results.
+
+If you’re finding out more about your audience for example, then user interviews and surveys
+will work best for gaining an idea of people’s opinions and beliefs. If you’re in the process of
+testing your product though, then prototypes and usability testing will be the most useful in
+helping you understand how people interact with your product.
+
+Here’s a breakdown of some of the most common user research methods, and how they can
+help you at various stages of a project:
+
+#### Stakeholder interviews
+
+Before interviewing your users and thinking about design solutions, you should first conduct
+one-one-one interviews with the people (stakeholders) involved in creating the product. Not only
+do these interviews establish the goals of the business and the product as a whole, but they
+help align your team and give everyone a shared vision for what the end product will look like.
+
+Just as importantly as understanding the business goals, an effective stakeholder interview
+should also highlight any time and budget constraints that may disrupt the project, as well as
+any issues already identified in the product.
+
+Another useful tip for conducting a stakeholder interview is to record the session rather than
+take notes. Not only will this help you focus on the conversation without breaking the flow to
+write stuff down, but having a recording creates an accurate reference for you and your team to
+refer back to throughout the project.
+
+- https://uxdesign.cc/the-ultimate-guide-to-stakeholder-interviews-understand-your-clients-a3bcf8
+  7b6e8b
+- https://boxesandarrows.com/a-stakeholder-interview-checklist/
+
+#### User interviews
+
+User interviews are one-on-one sessions in which you ask someone a series of questions, such
+as their opinion towards a design or their usage habits and the expectations they’d have of the
+product. These interviews aren’t just about what the user likes, but more about learning what
+they’re trying to do and seeing what isn’t working for them currently.
+
+When carrying out a user interview, make sure you know exactly what topics you’d like to
+discuss and learn more about beforehand. Once you understand the learning objectives of the
+interview, you should then prepare a series of questions to help guide the conversation.
+
+A few more tips for getting the most out of a user interview:
+
+**Ask open-ended questions:** Make sure to ask the user open-ended questions that enable
+people to expand on their thoughts and give a more in-depth answer, rather than a simple yes
+or no response.
+
+**Avoid leading the questions:** Don’t hint at a specific answer or mention what other users
+responded with. By leading the question, you may inherently sway someone into answering a
+certain way rather than letting them think about the question from a neutral perspective.
+
+- https://uxdesign.cc/how-to-conduct-user-interviews-fe4b8c34b0b7
+- https://www.nngroup.com/articles/user-interviews/
+
+#### Surveys
+
+Surveys are a great way to gather information from many users without having to interview them
+directly. Surveys can also be used at any stage of a project to help teams test and validate their
+designs, as well as progressively improve their product and respond to the user’s needs.
+
+Make sure to keep the survey as short and simple as possible, and use a progress indicator to
+inform the user of how long is left. If the time and effort needed to complete the survey is
+minimal, then people may be more willing to take time out of the day to respond rather than use
+up their valuable minutes when they could be doing something else.
+
+As well as respecting your users time with shorter surveys, you should also make sure to target
+your surveys at the right moment. If a user completes a purchase for example, then asking how
+their experience was as soon as the order is confirmed will warrant a much more accurate
+response while the details are still fresh in their mind.
+
+- https://uxplanet.org/this-is-all-you-need-to-know-to-conduct-a-ux-survey-50400af45920
+- https://www.nngroup.com/articles/keep-online-surveys-short/
+
+#### Personas
+
+These are profiles of your typical or ideal user, and are created using the information gathered
+through researching your users and learning about their habits. A persona may be fictional, but
+the data used to create them is real, and forms a blueprint of your user so that you get a sense
+of where your product would fit into their day-to-day life.
+
+The goal of a persona is to help you emphasise with the user, and put yourself in their shoes to
+understand what motivates them, what problems they face, and what matters most to them
+when using your product. Here’s a few examples of what you can uncover:
+
+- How old are they? (e.g. Will a user in their 20s be likelier to use the more advanced
+  features than someone in their 60s?).
+- Where do they live? (e.g. Is the internet connection there strong, or are they likely to be
+  limited on what they can use due to a slower connection?).
+- What are their motivations for using the product? (e.g. Are they looking to break a
+  marathon record or simply track a Sunday afternoon workout?).
+
+- https://www.nngroup.com/articles/persona-types/
+
+#### User flows
+
+A user flow is a diagram of the complete path someone will take when using your product.
+Understanding how someone will move through the product from start to finish means you will
+be able to see exactly what pages and elements they will encounter (e.g Button links), and what
+sort of actions the user will need to take in order to complete their end goal.
+
+When creating a user flow, the key steps you should be thinking about are the initial entry point,
+which is the beginning of the users journey; the steps to completion, which is the path the user
+takes in order to complete their task; and the final interaction, which is the point in the flow
+where the user accomplishes their desired goal.
+
+User flows should be created in the early stages of a project once you’ve collected your data
+from other methods such as user interviews and surveys. These diagrams form the foundation
+
+on which your product will be built on, so it’s better to understand how users will expect the
+product to work so that you can determine what type of flow would be best.
+
+- https://careerfoundry.com/en/blog/ux-design/how-to-create-a-user-flow/
+- https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/#4-where-do-user-flows-fit-into
+  -the-ux-design-process
+
+#### Card Sorting
+
+Card sorting is about seeing how your users organise content in a way that makes the most
+sense to them. Your goal is to identify patterns in the way people think about categorising the
+items on your site, and avoid working off assumptions about how users search for information.
+
+When conducting a card sorting exercise, you should aim to include between 40 and 80 items
+that relate to the main content in your product (e.g. A list of products you sell), and have users
+organise the items into groups. Don’t help the user or give them any hints either, as the goal of
+the exercise is to see how people arrange the items in a way that’s logical to them.
+
+You should also repeat the card sorting exercise with around 15 to 20 users, so that you collect
+a large enough pool of data to help you spot any recurring patterns in people’s thinking.
+
+- https://www.nngroup.com/articles/card-sorting-definition/
+
+#### Prototyping
+
+A prototype is an earlier version of the product or feature you’re building, and is useful for
+making sure the proposed solution truly benefits the user. With prototypes, you can gather
+feedback and make adjustments on the go instead of commiting time and money into creating
+something that isn’t fit for purpose.
+
+The details and complexity of the prototype, known as the fidelity, also depends on the stage of
+the project you’re in:
+
+**Low-fidelity:** Early prototypes tend to be more paper-based, with the goal being to evolve your
+ideas into something that represents the product you’re building. Paper prototypes are good for
+quickly outlining a flow or user interaction, however they don't give a realistic feel for the final
+product as they aren’t clickable or as well-designed.
+
+**High-fidelity:** These are more advanced prototypes that should typically be created further
+along in the design process, once it’s clear how the final product will look and function.
+High-fidelity prototypes are great for giving users a more aesthetically pleasing design, and also
+providing them with functionality that is closer to the end product.
+
+- https://www.uxmatters.com/mt/archives/2019/01/prototyping-user-experience.php#:~:text=Protot
+  yping%20is%20an%20integral%20part,as%20test%20groups%20of%20users
+
+#### Usability tests
+
+Usability tests are a great way for you to observe how your users interact with a product, and
+identify any pain points or areas of confusion they experience during a task.
+
+The Nielsen Norman Group recommends finding no more than eight people to take part in
+usability studies, to not only keep your costs down, but also make it easier to organise the data.
+Your users should ideally fall within your target audience as well, as their feedback stands a
+better chance of being the most useful if they’re also likely to use your product in real life.
+
+During any usability test, try to keep the environment as realistic as possible, and avoid helping
+the users too much. The goal is to see how people naturally solve problems, and observe their
+behaviour in response to the product as if it was in the real world. By doing this, you’ll remove
+any biases and get a truer sense of where your thinking can be improved.
+
+- https://www.nngroup.com/articles/usability-testing-101/
+- https://www.nngroup.com/articles/how-many-test-users/#:~:text=For%20really%20low%2Doverh
+  ead%20projects,5%20users%20per%20usability%20test
+
+#### A/B testing
+
+The goal of A/B testing is to assess how users respond to two variations of a page or feature,
+and analyse how either version performs. By splitting a design into two versions (A or B), you
+can see how the changes affect the users behaviour, and determine whether a proposed update
+or design change is worth pursuing further.
+
+Before conducting an A/B test, you first need to decide why you’re doing it. Is it to increase the
+number of registrations, or reduce the amount of users abandoning the checkout for example?
+Having a goal gives you a metric to measure the test against, so that you can see whether your
+proposed changes really do improve the product and solve the issues identified.
+
+To conduct the actual A/B test, you need to split the users accessing your product into two
+groups, with either group viewing one or the other version of the proposed design. A great tool
+to run these tests is [Google Ex][google experiments], which allows you to specify the page and the changes you’d like to compare, as well as monitor the results from real users.
+
+- https://uxdesign.cc/7-steps-of-a-b-testing-what-how-cf3b209467fd
+
+[google ex]: https://support.google.com/optimize/answer/6211930?hl=en
+
+### Organise the data gathered in your research
+
+Organising your research is about adding structure to the data you collected, categorising the
+information, and making it easier to look for any recurring problems reported by your users.
+Without proper organisation, it can become harder for you to work out what issues to prioritise
+and see where to focus your attention.
+
+Using tags is a good example of organising your research. Tags involve grouping similar
+findings into more manageable chunks, such as any issues involving navigation on the site.
+These groups are often colour coded, and are categorised under labels such as ‘navigation’ so
+that you’re able to identify common themes and see where the main problems are.
+
+### Analyse the data before making any decisions
+
+Once you’ve collected the research and identified where the issues are in your product, your
+next step is to analyse the data to understand exactly what it means, and begin thinking of ways
+in which you can solve the problems uncovered.
+
+- Where are the issues occurring, and why?
+- What does the data tell you about your users?
+- Which changes will have the biggest impact?
+
+Without proper analysis, you risk making changes based solely on what the numbers are telling
+you (e.g. 50% of users abandon the cart), instead of really understanding what the core issue is.
+This can lead to teams making impulsive decisions, by trying to solve the problem before
+they’ve really taken the time to understand what’s causing the user issues in the first place.
+
+If half of your users are abandoning their cart for example, you might consider redesigning the
+checkout, but this may not necessarily solve the actual problem. Through proper analysis
+however, you may for example find that users feel as though they’re being forced to sign up first,
+meaning an effective solution could be to provide a guest checkout option instead.
+
+### Share your insights and recommendations
+
+On any project, it's essential that each stakeholder understands the problems at hand, and
+sharing your research helps others make sense of your findings and see where the issues are in
+your product. Your aim is to ensure that everyone involved in the product is aligned on the
+needs of the user so that they can collectively work towards a single, shared goal.
+
+A good approach to sharing your findings is to create a research report. Not only are reports
+easily shareable with your team no matter where they are, but it also means people can refer to
+the original document at any time to make sure their thinking remains on track, and that they
+don’t accidentally miss-remember the information or work off of best guesses.
+
+When creating your report, make sure you explain the objectives that led the research, as well
+as your findings and recommendations for solving the issues uncovered. As well as including enough detail in the report for all stakeholders to understand, screenshots and other visual
+materials will also make your report more appealing to read as opposed to just walls of text.
+
+### Gather user feedback through regular testing
+
+Prototypes and usability testing are great ways to identify where the pain-points are for users,
+as well as gather feedback and opinions to help move your designs along. Without consistent
+testing, it’s easy to miss opportunities to improve your thinking, or worse, spend a lot of time
+designing something that isn’t fit for purpose.
+
+### More on research and insights
+
+- https://www.nngroup.com/articles/which-ux-research-methods/
+- https://www.gov.uk/service-manual/user-research
+- http://opendesignkit.org/
+- https://uxchecklist.github.io/
+- https://www.youtube.com/watch?v=zGCRhd3r4fE
+- https://www.uxpin.com/studio/blog/ux-research-plan/#:~:text=A%20UX%20research%20plan%2
+  0helps,logistical%20needs%20for%20the%20study
