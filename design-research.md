@@ -632,7 +632,7 @@ proposed changes really do improve the product and solve the issues identified.
 
 To conduct the actual A/B test, you need to split the users accessing your product into two
 groups, with either group viewing one or the other version of the proposed design. A great tool
-to run these tests is [Google Ex][google experiments], which allows you to specify the page and the changes you’d like to compare, as well as monitor the results from real users.
+to run these tests is [Google Experiments][google ex], which allows you to specify the page and the changes you’d like to compare, as well as monitor the results from real users.
 
 - https://uxdesign.cc/7-steps-of-a-b-testing-what-how-cf3b209467fd
 
