@@ -553,9 +553,7 @@ takes in order to complete their task; and the final interaction, which is the p
 where the user accomplishes their desired goal.
 
 User flows should be created in the early stages of a project once you’ve collected your data
-from other methods such as user interviews and surveys. These diagrams form the foundation
-
-on which your product will be built on, so it’s better to understand how users will expect the
+from other methods such as user interviews and surveys. These diagrams form the foundation on which your product will be built on, so it’s better to understand how users will expect the
 product to work so that you can determine what type of flow would be best.
 
 - https://careerfoundry.com/en/blog/ux-design/how-to-create-a-user-flow/
